@@ -6,6 +6,7 @@ html,body{
     margin: 0;
     overflow: hidden;
 }
+
 .content{
 
     display: flex;
@@ -67,7 +68,6 @@ html,body{
     width: 50%;
     border-radius: 30px;
     color: #FFF;
-    padding: 30px 30px 30px 30px;
     margin-top: 10%;
     margin-bottom: 10%;
     margin-left: auto;
@@ -77,10 +77,14 @@ html,body{
 }
 .main-menu .level-item a{
     text-decoration: none;
-
+    display: block;
+    padding: 30px 50px 30px 50px;
 }
 .main-menu .level-item-easy{
     border: rgb(18, 212, 0) 1px solid;
+}
+.main-menu .level-item-easy a{
+    display: block;
 }
 .main-menu .level-item-easy > *{
     color:rgb(18, 212, 0);
@@ -97,6 +101,9 @@ html,body{
 .main-menu .level-item-medium{
     border: rgb(198, 212, 0) 1px solid;
 }
+.main-menu .level-item-medium a{
+    display: block;
+}
 .main-menu .level-item-medium > *{
     color:rgb(198, 212, 0);
 }
@@ -111,6 +118,9 @@ html,body{
 }
 .main-menu .level-item-hard{
     border: rgb(212, 32, 0) 1px solid;
+}
+.main-menu .level-item-hard a{
+    display: block;
 }
 .main-menu .level-item-hard > *{ 
     color:rgb(212, 32, 0);
